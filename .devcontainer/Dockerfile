@@ -1,6 +1,6 @@
 FROM ubuntu:jammy
 
-ADD https://raw.githubusercontent.com/gitpod-io/workspace-images/main/base/install-packages /usr/bin/install-packages
+ADD https://raw.githubusercontent.com/khulnasoft/workspace-images/main/base/install-packages /usr/bin/install-packages
 RUN chmod +x /usr/bin/install-packages
 
 # Improve resilience during build (DNS timeouts, intermediate repo unavailability, broken proxy, etc.)
@@ -75,7 +75,7 @@ RUN yes | unminimize \
 ENV LANG=en_US.UTF-8
 
 ### Git ###
-ADD https://raw.githubusercontent.com/gitpod-io/workspace-images/main/base/default.gitconfig /etc/gitconfig
+ADD https://raw.githubusercontent.com/khulnasoft/workspace-images/main/base/default.gitconfig /etc/gitconfig
 
 RUN add-apt-repository -y ppa:git-core/ppa
 # https://github.com/git-lfs/git-lfs/blob/main/INSTALLING.md
