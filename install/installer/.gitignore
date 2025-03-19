@@ -1,0 +1,4 @@
+installer
+dist
+versions.yaml
+devpod.config.yaml
