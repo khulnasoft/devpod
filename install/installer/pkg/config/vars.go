@@ -5,5 +5,5 @@
 package config
 
 var (
-	GitpodContainerRegistry = "eu.gcr.io/devpod-dev-artifact/build"
+	GitpodContainerRegistry = "ghcr.io/devpod-dev-artifact/build"
 )

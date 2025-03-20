@@ -55,7 +55,7 @@ const devpodEmptyContext = {
     repo: "",
     repository: {
         host: "github.com",
-        owner: "gitpod-io",
+        owner: "khulnasoft",
         name: "empty",
         cloneUrl: "https://github.com/gitpod-io/empty.git",
         defaultBranch: "main",
@@ -110,7 +110,7 @@ class MockRepositoryProvider implements RepositoryProvider {
     async getRepo(user: User, owner: string, repo: string): Promise<Repository> {
         return {
             host: "github.com",
-            owner: "gitpod-io",
+            owner: "khulnasoft",
             name: "empty",
             cloneUrl: "https://github.com/gitpod-io/empty.git",
             defaultBranch: "main",
@@ -251,19 +251,19 @@ describe("ContextService", async () => {
                     }
 
                     async function createCommitContextForBranch(branchName: string): Promise<CommitContext> {
-                        const branch = await mockRepositoryProvider.getBranch(user, "gitpod-io", "empty", branchName);
+                        const branch = await mockRepositoryProvider.getBranch(user, "khulnasoft", "empty", branchName);
                         const r: CommitContext = {
                             title: branch.commit.commitMessage,
                             ref: branch.name,
                             refType: "branch",
                             revision: branch.commit.sha,
-                            repository: await mockRepositoryProvider.getRepo(user, "gitpod-io", "empty"),
+                            repository: await mockRepositoryProvider.getRepo(user, "khulnasoft", "empty"),
                             normalizedContextURL: branch.htmlUrl,
                         };
                         return r;
                     }
 
-                    const branches = await mockRepositoryProvider.getBranches(user, "gitpod-io", "empty");
+                    const branches = await mockRepositoryProvider.getBranches(user, "khulnasoft", "empty");
                     for (const b of branches) {
                         if (b.htmlUrl === url) {
                             return createCommitContextForBranch(b.name);
@@ -278,7 +278,7 @@ describe("ContextService", async () => {
                                     ref: commit.sha,
                                     refType: "revision",
                                     revision: commit.sha,
-                                    repository: await mockRepositoryProvider.getRepo(user, "gitpod-io", "empty"),
+                                    repository: await mockRepositoryProvider.getRepo(user, "khulnasoft", "empty"),
                                     normalizedContextURL: commitContextUrl,
                                 };
                                 return r;

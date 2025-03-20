@@ -18,7 +18,7 @@ jobs:
     runs-on: ${{ needs.create-runner.outputs.label }}
     needs: [create-runner]
     container:
-      image: eu.gcr.io/devpod-core-dev/dev/dev-environment:main-gha.30393
+      image: docker.io/khulnasoft/devpod-environment:latest
     outputs:
       names: ${{ steps.set-matrix.outputs.names }}
       count: ${{ steps.set-matrix.outputs.count }}

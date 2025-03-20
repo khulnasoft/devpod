@@ -70,7 +70,7 @@ class TestGithubContextRepositoryProvider {
     @test public async testFetchCommitHistory() {
         const result = await this.provider.getCommitHistory(
             this.user,
-            "gitpod-io",
+            "khulnasoft",
             "devpod-test-repo",
             "409ac2de49a53d679989d438735f78204f441634",
             100,

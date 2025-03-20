@@ -28,7 +28,7 @@ import (
 	"golang.org/x/xerrors"
 )
 
-const keychainServiceName = "gitpod-io"
+const keychainServiceName = "khulnasoft"
 
 var authScopesLocalCompanion = []string{
 	"function:getGitpodTokenScopes",

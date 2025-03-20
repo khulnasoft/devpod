@@ -20,9 +20,9 @@ on:
         required: false
         description: "The base repo of image"
         options:
-          - "eu.gcr.io/devpod-core-dev/build"
-          - "eu.gcr.io/devpod-dev-artifact/build"
-        default: "eu.gcr.io/devpod-core-dev/build"
+          - "ghcr.io/devpod-core-dev/build"
+          - "ghcr.io/devpod-dev-artifact/build"
+        default: "ghcr.io/devpod-core-dev/build"
 
 jobs:
   create-runner:
@@ -57,7 +57,7 @@ jobs:
               {
                   echo "version=main-gha.${{ github.event.workflow_run.run_number }}"
                   echo "name=preview-regression-check-main-${{ github.run_id }}-${{ github.run_attempt }}"
-                  echo "image_repo_base=eu.gcr.io/devpod-core-dev/build"
+                  echo "image_repo_base=ghcr.io/devpod-core-dev/build"
                   echo "skip=${{ github.event.workflow_run.conclusion == 'failure' }}"
               } >> $GITHUB_OUTPUT
           fi
@@ -99,7 +99,7 @@ jobs:
     if: ${{ needs.configuration.outputs.skip == 'false' }}
     runs-on: ${{ needs.create-runner.outputs.label }}
     container:
-      image: eu.gcr.io/devpod-core-dev/dev/dev-environment:main-gha.30393
+      image: docker.io/khulnasoft/devpod-environment:latest
       volumes:
         - /var/tmp:/var/tmp
         - /tmp:/tmp

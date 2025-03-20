@@ -795,7 +795,7 @@ async function createTestWorkspace(svc: WorkspaceService, org: Organization, own
             title: "devpod",
             repository: {
                 host: "github.com",
-                owner: "gitpod-io",
+                owner: "khulnasoft",
                 name: "devpod",
                 cloneUrl: "https://github.com/khulnasoft/devpod.git",
             },

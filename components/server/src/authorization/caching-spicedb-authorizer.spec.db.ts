@@ -134,7 +134,7 @@ describe("CachingSpiceDBAuthorizer", async () => {
                 title: "devpod",
                 repository: {
                     host: "github.com",
-                    owner: "gitpod-io",
+                    owner: "khulnasoft",
                     name: "devpod",
                     cloneUrl: "https://github.com/khulnasoft/devpod.git",
                 },

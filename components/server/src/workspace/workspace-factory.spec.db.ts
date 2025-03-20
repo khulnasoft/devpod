@@ -132,7 +132,7 @@ describe("WorkspaceFactory", async () => {
             title: "devpod",
             repository: {
                 host: "github.com",
-                owner: "gitpod-io",
+                owner: "khulnasoft",
                 name: "devpod",
                 cloneUrl: "https://github.com/khulnasoft/devpod",
                 defaultBranch: "main",
@@ -163,7 +163,7 @@ describe("WorkspaceFactory", async () => {
             title: "devpod",
             repository: {
                 host: "github.com",
-                owner: "gitpod-io",
+                owner: "khulnasoft",
                 name: "devpod",
                 cloneUrl: "https://github.com/khulnasoft/devpod",
                 defaultBranch: "main",
@@ -207,7 +207,7 @@ describe("WorkspaceFactory", async () => {
             title: "devpod",
             repository: {
                 host: "github.com",
-                owner: "gitpod-io",
+                owner: "khulnasoft",
                 name: "devpod",
                 cloneUrl: "https://github.com/khulnasoft/devpod",
                 defaultBranch: "main",
@@ -261,7 +261,7 @@ describe("WorkspaceFactory", async () => {
             title: "devpod",
             repository: {
                 host: "github.com",
-                owner: "gitpod-io",
+                owner: "khulnasoft",
                 name: "devpod",
                 cloneUrl: "https://github.com/khulnasoft/devpod",
                 defaultBranch: "main",
@@ -316,7 +316,7 @@ describe("WorkspaceFactory", async () => {
             title: "devpod",
             repository: {
                 host: "github.com",
-                owner: "gitpod-io",
+                owner: "khulnasoft",
                 name: "devpod",
                 cloneUrl: "https://github.com/khulnasoft/devpod",
                 defaultBranch: "main",
@@ -362,7 +362,7 @@ describe("WorkspaceFactory", async () => {
             title: "devpod",
             repository: {
                 host: "github.com",
-                owner: "gitpod-io",
+                owner: "khulnasoft",
                 name: "devpod",
                 cloneUrl: "https://github.com/khulnasoft/devpod",
                 defaultBranch: "main",

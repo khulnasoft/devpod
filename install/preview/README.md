@@ -7,7 +7,7 @@ simple as possible.
 ## Installation
 
 ```bash
-docker run --privileged --name devpod --rm -it -v /tmp/devpod:/var/devpod eu.gcr.io/devpod-core-dev/build/preview-install
+docker run --privileged --name devpod --rm -it -v /tmp/devpod:/var/devpod ghcr.io/devpod-core-dev/build/preview-install
 ```
 
 Once the above command starts running and the pods are ready (can be checked by running `docker exec devpod kubectl get pods`),

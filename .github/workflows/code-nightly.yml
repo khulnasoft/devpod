@@ -18,7 +18,7 @@ jobs:
     runs-on: ${{ needs.create-runner.outputs.label }}
     needs: [create-runner]
     container:
-      image: eu.gcr.io/devpod-core-dev/dev/dev-environment:main-gha.30393
+      image: docker.io/khulnasoft/devpod-environment:latest
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup-environment
@@ -37,7 +37,7 @@ jobs:
 
           codeHeadCommit=$(curl -H 'Accept: application/vnd.github.VERSION.sha' https://api.github.com/repos/gitpod-io/openvscode-server/commits/gp-code/main)
           codeVersion=$(curl https://raw.githubusercontent.com/gitpod-io/openvscode-server/$codeHeadCommit/package.json | jq .version)
-          imageRepoBase=${{ github.ref == 'refs/heads/main' && 'eu.gcr.io/devpod-core-dev/build' || 'eu.gcr.io/devpod-dev-artifact/build' }}
+          imageRepoBase=${{ github.ref == 'refs/heads/main' && 'ghcr.io/devpod-core-dev/build' || 'ghcr.io/devpod-dev-artifact/build' }}
           cd components/ide/code
           leeway build \
             -Dversion=nightly \

@@ -1,4 +1,4 @@
-image: eu.gcr.io/devpod-core-dev/dev/dev-environment:main-gha.30393
+image: docker.io/khulnasoft/devpod-environment:latest
 workspaceLocation: devpod/devpod-ws.code-workspace
 checkoutLocation: devpod
 ports:

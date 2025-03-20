@@ -34,7 +34,7 @@ const expect = chai.expect;
 const commitContext = {
     repository: {
         owner: "devpod",
-        name: "gitpod-io",
+        name: "khulnasoft",
     },
     revision: "abcd123",
     title: "test",

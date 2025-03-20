@@ -19,7 +19,7 @@
         "host": "github.com",
         "defaultBranch": "main",
         "name": "workspace-images",
-        "owner": "gitpod-io",
+        "owner": "khulnasoft",
         "private": false
       },
       "normalizedContextURL": "https://github.com/gitpod-io/workspace-images",
@@ -35,7 +35,7 @@
             "host": "github.com",
             "defaultBranch": "main",
             "name": "workspace-images",
-            "owner": "gitpod-io",
+            "owner": "khulnasoft",
             "private": false
           },
           "revision": "d7120fb6038d1d888676141e90e8f91c34fa702a"
@@ -84,7 +84,7 @@
           "host": "github.com",
           "defaultBranch": "main",
           "name": "workspace-images",
-          "owner": "gitpod-io",
+          "owner": "khulnasoft",
           "private": false
         },
         "revision": "d7120fb6038d1d888676141e90e8f91c34fa702a"

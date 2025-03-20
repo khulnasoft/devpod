@@ -15,7 +15,7 @@
         "cloneUrl": "https://github.com/gitpod-io/empty.git",
         "host": "github.com",
         "name": "empty",
-        "owner": "gitpod-io",
+        "owner": "khulnasoft",
         "private": false
       },
       "normalizedContextURL": "https://github.com/gitpod-io/empty",

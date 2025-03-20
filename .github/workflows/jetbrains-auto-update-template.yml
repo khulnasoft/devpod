@@ -23,7 +23,7 @@ jobs:
   update-jetbrains:
     runs-on: ${{ needs.create-runner.outputs.label }}
     container:
-      image: eu.gcr.io/devpod-core-dev/dev/dev-environment:main-gha.30393
+      image: docker.io/khulnasoft/devpod-environment:latest
     needs: [ create-runner ]
     steps:
       - uses: actions/checkout@v2
@@ -56,7 +56,7 @@ jobs:
           LEEWAY_REMOTE_CACHE_BUCKET: ${{ github.ref == 'refs/heads/main' && 'leeway-cache-main-c514a01' || 'leeway-cache-dev-3ac8ef5' }}
         run: |
           echo "May upgrade latest ${{ inputs.productId }} image with ${{ steps.find-target.outputs.editorSummary }}"
-          imageRepoBase=${{ github.ref == 'refs/heads/main' && 'eu.gcr.io/devpod-core-dev/build' || 'eu.gcr.io/devpod-dev-artifact/build' }}
+          imageRepoBase=${{ github.ref == 'refs/heads/main' && 'ghcr.io/devpod-core-dev/build' || 'ghcr.io/devpod-dev-artifact/build' }}
           output=$(leeway build -Dversion=latest -DimageRepoBase=$imageRepoBase -DbuildNumber=${{ steps.find-target.outputs.buildNumber }} components/ide/jetbrains/image:${{ steps.find-target.outputs.image }}-latest -DjbBackendVersion=${{ steps.find-target.outputs.jbBackendVersion }} --dry-run)
           if echo "$output" | grep -q "🔧[[:space:]]*build"; then
             echo "leewayUsingCache=false" >> $GITHUB_OUTPUT

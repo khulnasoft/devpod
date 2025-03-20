@@ -53,7 +53,7 @@ class TestFileProvider {
         const result = await this.fileProvider.getFileContent(
             {
                 repository: {
-                    owner: "gitpod-io",
+                    owner: "khulnasoft",
                     name: "devpod",
                     host: "github.com",
                     cloneUrl: "unused in test",

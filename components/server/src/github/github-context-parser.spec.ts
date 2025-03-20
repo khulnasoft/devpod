@@ -213,7 +213,7 @@ class TestGithubContextParser {
             isFile: true,
             repository: {
                 host: "github.com",
-                owner: "gitpod-io",
+                owner: "khulnasoft",
                 name: "devpod-test-repo",
                 cloneUrl: "https://github.com/khulnasoft/devpod-test-repo.git",
                 defaultBranch: "1test",
@@ -233,7 +233,7 @@ class TestGithubContextParser {
             title: "khulnasoft/devpod-test-repo - 499efbbc:folder1/folder2",
             repository: {
                 host: "github.com",
-                owner: "gitpod-io",
+                owner: "khulnasoft",
                 name: "devpod-test-repo",
                 cloneUrl: "https://github.com/khulnasoft/devpod-test-repo.git",
                 defaultBranch: "1test",
@@ -323,7 +323,7 @@ class TestGithubContextParser {
                 defaultBranch: "main",
                 host: "github.com",
                 name: "devpod",
-                owner: "gitpod-io",
+                owner: "khulnasoft",
                 private: false,
             },
         });
@@ -342,7 +342,7 @@ class TestGithubContextParser {
             isFile: false,
             repository: {
                 host: "github.com",
-                owner: "gitpod-io",
+                owner: "khulnasoft",
                 name: "devpod-test-repo",
                 cloneUrl: "https://github.com/khulnasoft/devpod-test-repo.git",
                 defaultBranch: "1test",
@@ -366,7 +366,7 @@ class TestGithubContextParser {
             isFile: false,
             repository: {
                 host: "github.com",
-                owner: "gitpod-io",
+                owner: "khulnasoft",
                 name: "devpod-test-repo",
                 cloneUrl: "https://github.com/khulnasoft/devpod-test-repo.git",
                 defaultBranch: "1test",
@@ -490,13 +490,13 @@ class TestGithubContextParser {
             title: "Test issue web-extension",
             repository: {
                 host: "github.com",
-                owner: "gitpod-io",
+                owner: "khulnasoft",
                 name: "devpod-test-repo",
                 cloneUrl: "https://github.com/khulnasoft/devpod-test-repo.git",
                 defaultBranch: "1test",
                 private: false,
             },
-            owner: "gitpod-io",
+            owner: "khulnasoft",
             nr: 42,
             ref: "1test",
             refType: "branch",
@@ -510,7 +510,7 @@ class TestGithubContextParser {
             title: "khulnasoft/devpod-test-repo - 1test",
             repository: {
                 host: "github.com",
-                owner: "gitpod-io",
+                owner: "khulnasoft",
                 name: "devpod-test-repo",
                 cloneUrl: "https://github.com/khulnasoft/devpod-test-repo.git",
                 defaultBranch: "1test",
@@ -531,13 +531,13 @@ class TestGithubContextParser {
             title: "Test issue web-extension",
             repository: {
                 host: "github.com",
-                owner: "gitpod-io",
+                owner: "khulnasoft",
                 name: "devpod-test-repo",
                 cloneUrl: "https://github.com/khulnasoft/devpod-test-repo.git",
                 defaultBranch: "1test",
                 private: false,
             },
-            owner: "gitpod-io",
+            owner: "khulnasoft",
             nr: 42,
             ref: "1test",
             refType: "branch",
@@ -555,7 +555,7 @@ class TestGithubContextParser {
             title: "khulnasoft/devpod-test-repo - aba298d5:test-comment-01.md",
             repository: {
                 host: "github.com",
-                owner: "gitpod-io",
+                owner: "khulnasoft",
                 name: "devpod-test-repo",
                 cloneUrl: "https://github.com/khulnasoft/devpod-test-repo.git",
                 defaultBranch: "1test",
@@ -577,7 +577,7 @@ class TestGithubContextParser {
             title: "khulnasoft/devpod-test-repo - 499efbbc:folder1/folder2/content2",
             repository: {
                 host: "github.com",
-                owner: "gitpod-io",
+                owner: "khulnasoft",
                 name: "devpod-test-repo",
                 cloneUrl: "https://github.com/khulnasoft/devpod-test-repo.git",
                 defaultBranch: "1test",
@@ -599,7 +599,7 @@ class TestGithubContextParser {
             title: "khulnasoft/devpod-test-repo - 499efbbc:folder1/folder2/content2",
             repository: {
                 host: "github.com",
-                owner: "gitpod-io",
+                owner: "khulnasoft",
                 name: "devpod-test-repo",
                 cloneUrl: "https://github.com/khulnasoft/devpod-test-repo.git",
                 defaultBranch: "1test",
@@ -621,7 +621,7 @@ class TestGithubContextParser {
             title: "khulnasoft/devpod-test-repo - 499efbbc:folder1/folder2/content2",
             repository: {
                 host: "github.com",
-                owner: "gitpod-io",
+                owner: "khulnasoft",
                 name: "devpod-test-repo",
                 cloneUrl: "https://github.com/khulnasoft/devpod-test-repo.git",
                 defaultBranch: "1test",
