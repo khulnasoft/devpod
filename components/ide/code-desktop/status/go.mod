@@ -1,6 +1,6 @@
 module github.com/khulnasoft/devpod/code-desktop/status
 
-go 1.22.0
+go 1.23.0
 
 toolchain go1.23.3
 
@@ -13,12 +13,12 @@ require (
 )
 
 require (
+	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/khulnasoft/devpod/common-go v0.0.0-00010101000000-000000000000
 	github.com/khulnasoft/devpod/supervisor/api v0.0.0-00010101000000-000000000000
-	github.com/golang/protobuf v1.5.4 // indirect
-	golang.org/x/net v0.23.0 // indirect
-	golang.org/x/sys v0.18.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/net v0.38.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2
 	google.golang.org/genproto v0.0.0-20230803162519-f966b187b2e5 // indirect
 	google.golang.org/protobuf v1.33.0 // indirect

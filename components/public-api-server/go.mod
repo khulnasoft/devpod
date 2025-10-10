@@ -8,12 +8,7 @@ require (
 	github.com/AdaLogics/go-fuzz-headers v0.0.0-20220708163326-82d177caec6e
 	github.com/bufbuild/connect-go v1.10.0
 	github.com/coreos/go-oidc/v3 v3.5.0
-	github.com/khulnasoft/devpod/common-go v0.0.0-00010101000000-000000000000
-	github.com/khulnasoft/devpod/components/devpod-db/go v0.0.0-00010101000000-000000000000
-	github.com/khulnasoft/devpod/components/public-api/go v0.0.0-00010101000000-000000000000
-	github.com/khulnasoft/devpod/devpod-protocol v0.0.0-00010101000000-000000000000
-	github.com/khulnasoft/devpod/usage-api v0.0.0-00010101000000-000000000000
-	github.com/go-chi/chi/v5 v5.0.8
+	github.com/go-chi/chi/v5 v5.2.2
 	github.com/golang-jwt/jwt/v5 v5.0.0
 	github.com/golang/mock v1.6.0
 	github.com/google/cel-go v0.20.1
@@ -22,6 +17,11 @@ require (
 	github.com/gorilla/handlers v1.5.1
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/hashicorp/golang-lru v1.0.2
+	github.com/khulnasoft/devpod/common-go v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/devpod/components/devpod-db/go v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/devpod/components/public-api/go v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/devpod/devpod-protocol v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/devpod/usage-api v0.0.0-00010101000000-000000000000
 	github.com/prometheus/client_golang v1.16.0
 	github.com/redis/go-redis/v9 v9.0.2
 	github.com/relvacode/iso8601 v1.1.0
@@ -31,7 +31,7 @@ require (
 	github.com/stretchr/testify v1.8.4
 	github.com/stripe/stripe-go/v72 v72.122.0
 	github.com/zitadel/oidc v1.13.0
-	golang.org/x/oauth2 v0.22.0
+	golang.org/x/oauth2 v0.27.0
 	google.golang.org/grpc v1.58.3
 	google.golang.org/protobuf v1.33.0
 	gopkg.in/square/go-jose.v2 v2.6.0
@@ -42,9 +42,9 @@ require (
 	github.com/alicebob/gopher-json v0.0.0-20200520072559-a9ecdc9d1d3a // indirect
 	github.com/antlr4-go/antlr/v4 v4.13.0 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
-	github.com/khulnasoft/devpod/components/scrubber v0.0.0-00010101000000-000000000000 // indirect
 	github.com/go-logr/logr v1.4.1 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
+	github.com/khulnasoft/devpod/components/scrubber v0.0.0-00010101000000-000000000000 // indirect
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/stoewer/go-strcase v1.2.0 // indirect
 	github.com/yuin/gopher-lua v0.0.0-20220504180219-658193537a64 // indirect
@@ -96,7 +96,7 @@ require (
 	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
 	github.com/zitadel/logging v0.3.4 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
-	golang.org/x/net v0.23.0 // indirect
+	golang.org/x/net v0.38.0 // indirect
 	golang.org/x/sys v0.31.0 // indirect
 	golang.org/x/text v0.23.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
