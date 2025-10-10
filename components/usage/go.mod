@@ -1,21 +1,21 @@
 module github.com/khulnasoft/devpod/usage
 
-go 1.22.0
+go 1.23.0
 
 toolchain go1.23.3
 
 require (
 	github.com/alicebob/miniredis/v2 v2.30.2
 	github.com/bufbuild/connect-go v1.10.0
-	github.com/khulnasoft/devpod/common-go v0.0.0-00010101000000-000000000000
-	github.com/khulnasoft/devpod/components/devpod-db/go v0.0.0-00010101000000-000000000000
-	github.com/khulnasoft/devpod/components/public-api/go v0.0.0-00010101000000-000000000000
-	github.com/khulnasoft/devpod/usage-api v0.0.0-00010101000000-000000000000
 	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/go-redsync/redsync/v4 v4.8.1
 	github.com/google/go-cmp v0.6.0
 	github.com/google/uuid v1.3.0
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
+	github.com/khulnasoft/devpod/common-go v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/devpod/components/devpod-db/go v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/devpod/components/public-api/go v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/devpod/usage-api v0.0.0-00010101000000-000000000000
 	github.com/prometheus/client_golang v1.16.0
 	github.com/redis/go-redis/v9 v9.0.2
 	github.com/robfig/cron v1.2.0
@@ -36,7 +36,6 @@ require (
 	github.com/configcat/go-sdk/v7 v7.6.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
-	github.com/khulnasoft/devpod/components/scrubber v0.0.0-00010101000000-000000000000 // indirect
 	github.com/go-logr/logr v1.4.1 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-sql-driver/mysql v1.6.0 // indirect
@@ -49,6 +48,7 @@ require (
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
+	github.com/khulnasoft/devpod/components/scrubber v0.0.0-00010101000000-000000000000 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/onsi/gomega v1.29.0 // indirect
@@ -69,10 +69,10 @@ require (
 	go.opentelemetry.io/otel/metric v1.19.0 // indirect
 	go.opentelemetry.io/otel/trace v1.19.0 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
-	golang.org/x/net v0.23.0 // indirect
-	golang.org/x/sync v0.5.0 // indirect
-	golang.org/x/sys v0.18.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/net v0.38.0 // indirect
+	golang.org/x/sync v0.12.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230822172742-b8732ec3820d // indirect

@@ -7,17 +7,15 @@ toolchain go1.23.3
 require (
 	github.com/khulnasoft/devpod/common-go v0.0.0-00010101000000-000000000000
 	github.com/spf13/cobra v1.7.0
-	golang.org/x/net v0.23.0
-	golang.org/x/oauth2 v0.10.0
+	golang.org/x/net v0.38.0
+	golang.org/x/oauth2 v0.27.0
 	google.golang.org/api v0.126.0
 )
 
 require (
-	cloud.google.com/go/compute v1.23.0 // indirect
-	cloud.google.com/go/compute/metadata v0.2.3 // indirect
+	cloud.google.com/go/compute/metadata v0.3.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
-	github.com/khulnasoft/devpod/components/scrubber v0.0.0-00010101000000-000000000000 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/s2a-go v0.1.7 // indirect
@@ -27,6 +25,7 @@ require (
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0 // indirect
 	github.com/hashicorp/golang-lru v1.0.2 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
+	github.com/khulnasoft/devpod/components/scrubber v0.0.0-00010101000000-000000000000 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/prometheus/client_golang v1.16.0 // indirect
