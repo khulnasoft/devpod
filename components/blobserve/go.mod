@@ -1,22 +1,20 @@
 module github.com/khulnasoft/devpod/blobserve
 
-go 1.23.0
-
-toolchain go1.23.3
+go 1.24.0
 
 require (
 	github.com/containerd/containerd v1.6.36
 	github.com/distribution/reference v0.5.0
 	github.com/docker/cli v25.0.1+incompatible
-	github.com/khulnasoft/devpod/common-go v0.0.0-00010101000000-000000000000
-	github.com/khulnasoft/devpod/registry-facade v0.0.0-00010101000000-000000000000
 	github.com/google/go-cmp v0.6.0
 	github.com/gorilla/mux v1.8.1
 	github.com/heptiolabs/healthcheck v0.0.0-20211123025425-613501dd5deb
+	github.com/khulnasoft/devpod/common-go v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/devpod/registry-facade v0.0.0-00010101000000-000000000000
 	github.com/opencontainers/image-spec v1.1.0
 	github.com/prometheus/client_golang v1.18.0
 	github.com/spf13/cobra v1.7.0
-	golang.org/x/sync v0.12.0
+	golang.org/x/sync v0.18.0
 	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028
 )
 
@@ -36,8 +34,6 @@ require (
 	github.com/facebookgo/atomicfile v0.0.0-20151019160806-2de1f203e7d5 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
-	github.com/khulnasoft/devpod/components/scrubber v0.0.0-00010101000000-000000000000 // indirect
-	github.com/khulnasoft/devpod/registry-facade/api v0.0.0-00010101000000-000000000000 // indirect
 	github.com/go-logr/logr v1.4.1 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
@@ -78,6 +74,8 @@ require (
 	github.com/ipld/go-ipld-prime v0.21.0 // indirect
 	github.com/jbenet/goprocess v0.1.4 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
+	github.com/khulnasoft/devpod/components/scrubber v0.0.0-00010101000000-000000000000 // indirect
+	github.com/khulnasoft/devpod/registry-facade/api v0.0.0-00010101000000-000000000000 // indirect
 	github.com/klauspost/compress v1.17.6 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.7 // indirect
 	github.com/libp2p/go-buffer-pool v0.1.0 // indirect
@@ -120,7 +118,7 @@ require (
 	github.com/redis/go-redis/v9 v9.5.1 // indirect
 	github.com/rs/cors v1.7.0 // indirect
 	github.com/samber/lo v1.39.0 // indirect
-	github.com/sirupsen/logrus v1.9.3 // indirect
+	github.com/sirupsen/logrus v1.9.4 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/uber/jaeger-client-go v2.29.1+incompatible // indirect
@@ -137,14 +135,14 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
 	go4.org v0.0.0-20230225012048-214862532bf5 // indirect
-	golang.org/x/crypto v0.36.0 // indirect
+	golang.org/x/crypto v0.45.0 // indirect
 	golang.org/x/exp v0.0.0-20240213143201-ec583247a57a // indirect
-	golang.org/x/mod v0.17.0 // indirect
-	golang.org/x/net v0.25.0 // indirect
-	golang.org/x/sys v0.31.0 // indirect
-	golang.org/x/text v0.23.0 // indirect
+	golang.org/x/mod v0.29.0 // indirect
+	golang.org/x/net v0.47.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
-	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
+	golang.org/x/tools v0.38.0 // indirect
 	gonum.org/v1/gonum v0.14.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240108191215-35c7eff3a6b1 // indirect
 	google.golang.org/grpc v1.60.1 // indirect
