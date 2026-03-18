@@ -1,27 +1,23 @@
 module github.com/khulnasoft/devpod/code-desktop/status
 
-go 1.22.0
+go 1.24.0
 
-toolchain go1.23.3
-
-require google.golang.org/grpc v1.58.3
+require google.golang.org/grpc v1.79.3
 
 require (
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.16.0 // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20230726155614-23370e0ffb3e // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20230822172742-b8732ec3820d // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20251202230838-ff82c1b0f217 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20251202230838-ff82c1b0f217 // indirect
 )
 
 require (
 	github.com/khulnasoft/devpod/common-go v0.0.0-00010101000000-000000000000
 	github.com/khulnasoft/devpod/supervisor/api v0.0.0-00010101000000-000000000000
-	github.com/golang/protobuf v1.5.4 // indirect
-	golang.org/x/net v0.23.0 // indirect
-	golang.org/x/sys v0.18.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/net v0.48.0 // indirect
+	golang.org/x/sys v0.39.0 // indirect
+	golang.org/x/text v0.32.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2
-	google.golang.org/genproto v0.0.0-20230803162519-f966b187b2e5 // indirect
-	google.golang.org/protobuf v1.33.0 // indirect
+	google.golang.org/protobuf v1.36.10 // indirect
 )
 
 replace github.com/khulnasoft/devpod/common-go => ../../../common-go // blazedock
