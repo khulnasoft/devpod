@@ -7,17 +7,17 @@ toolchain go1.23.3
 require (
 	github.com/alecthomas/jsonschema v0.0.0-20210526225647-edb03dcab7bc
 	github.com/containerd/containerd v1.6.36
-	github.com/docker/cli v25.0.1+incompatible
+	github.com/docker/cli v29.2.0+incompatible
 	github.com/docker/docker v28.0.2+incompatible
 	github.com/docker/docker-credential-helpers v0.7.0 // indirect
-	github.com/khulnasoft/devpod/common-go v0.0.0-00010101000000-000000000000
-	github.com/khulnasoft/devpod/content-service/api v0.0.0-00010101000000-000000000000
-	github.com/khulnasoft/devpod/image-builder/api v0.0.0-00010101000000-000000000000
-	github.com/khulnasoft/devpod/ws-manager/api v0.0.0-00010101000000-000000000000
 	github.com/golang/mock v1.6.0
 	github.com/google/go-cmp v0.6.0
 	github.com/google/uuid v1.3.1
 	github.com/hashicorp/go-retryablehttp v0.7.0
+	github.com/khulnasoft/devpod/common-go v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/devpod/content-service/api v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/devpod/image-builder/api v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/devpod/ws-manager/api v0.0.0-00010101000000-000000000000
 	github.com/mattn/go-isatty v0.0.14
 	github.com/opencontainers/go-digest v1.0.0
 	github.com/opencontainers/image-spec v1.1.0
@@ -36,7 +36,6 @@ require (
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
-	github.com/khulnasoft/devpod/components/scrubber v0.0.0-00010101000000-000000000000 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
@@ -45,6 +44,7 @@ require (
 	github.com/heptiolabs/healthcheck v0.0.0-20211123025425-613501dd5deb // indirect
 	github.com/iancoleman/orderedmap v0.0.0-20190318233801-ac98e3ecb4b0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
+	github.com/khulnasoft/devpod/components/scrubber v0.0.0-00010101000000-000000000000 // indirect
 	github.com/klauspost/compress v1.16.0 // indirect
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/moby/locker v1.0.1 // indirect
