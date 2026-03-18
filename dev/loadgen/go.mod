@@ -1,32 +1,29 @@
 module github.com/khulnasoft/devpod/loadgen
 
-go 1.22.0
-
-toolchain go1.23.3
+go 1.24.0
 
 require (
 	github.com/cheggaaa/pb/v3 v3.0.5
+	github.com/google/uuid v1.6.0
 	github.com/khulnasoft/devpod/common-go v0.0.0-00010101000000-000000000000
 	github.com/khulnasoft/devpod/content-service/api v0.0.0-00010101000000-000000000000
 	github.com/khulnasoft/devpod/ws-manager/api v0.0.0-00010101000000-000000000000
-	github.com/google/uuid v1.3.0
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cobra v1.7.0
-	google.golang.org/grpc v1.58.3
-	google.golang.org/protobuf v1.33.0
+	google.golang.org/grpc v1.79.3
+	google.golang.org/protobuf v1.36.10
 	sigs.k8s.io/yaml v1.4.0
 )
 
 require (
 	github.com/VividCortex/ewma v1.1.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/cespare/xxhash/v2 v2.2.0 // indirect
+	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/fatih/color v1.7.0 // indirect
-	github.com/khulnasoft/devpod/components/scrubber v0.0.0-00010101000000-000000000000 // indirect
-	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0 // indirect
 	github.com/hashicorp/golang-lru v1.0.2 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
+	github.com/khulnasoft/devpod/components/scrubber v0.0.0-00010101000000-000000000000 // indirect
 	github.com/mattn/go-colorable v0.1.2 // indirect
 	github.com/mattn/go-isatty v0.0.12 // indirect
 	github.com/mattn/go-runewidth v0.0.7 // indirect
@@ -38,11 +35,11 @@ require (
 	github.com/prometheus/common v0.48.0 // indirect
 	github.com/prometheus/procfs v0.12.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	golang.org/x/net v0.23.0 // indirect
-	golang.org/x/sys v0.18.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/net v0.48.0 // indirect
+	golang.org/x/sys v0.39.0 // indirect
+	golang.org/x/text v0.32.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20230822172742-b8732ec3820d // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20251202230838-ff82c1b0f217 // indirect
 )
 
 replace github.com/khulnasoft/devpod/common-go => ../../components/common-go // blazedock
