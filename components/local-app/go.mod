@@ -1,38 +1,36 @@
 module github.com/khulnasoft/local-app
 
-go 1.23.0
-
-toolchain go1.23.3
+go 1.24.0
 
 require (
 	github.com/desertbit/timer v0.0.0-20180107155436-c41aec40b27f // indirect
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
+	github.com/golang/mock v1.6.0
+	github.com/google/go-cmp v0.7.0
+	github.com/google/uuid v1.6.0
+	github.com/improbable-eng/grpc-web v0.14.0
+	github.com/kevinburke/ssh_config v1.2.0
 	github.com/khulnasoft/devpod/devpod-protocol v0.0.0-00010101000000-000000000000
 	github.com/khulnasoft/devpod/local-app/api v0.0.0-00010101000000-000000000000
 	github.com/khulnasoft/devpod/supervisor/api v0.0.0-00010101000000-000000000000
-	github.com/golang/mock v1.6.0
-	github.com/google/go-cmp v0.7.0
-	github.com/google/uuid v1.3.0
-	github.com/improbable-eng/grpc-web v0.14.0
-	github.com/kevinburke/ssh_config v1.2.0
 	github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f // indirect
 	github.com/rs/cors v1.8.0 // indirect
 	github.com/sirupsen/logrus v1.9.3
 	github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966
 	github.com/zalando/go-keyring v0.1.1
-	golang.org/x/crypto v0.36.0
-	golang.org/x/oauth2 v0.12.0
+	golang.org/x/crypto v0.46.0
+	golang.org/x/oauth2 v0.34.0
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2
-	google.golang.org/grpc v1.58.3
-	google.golang.org/protobuf v1.33.0
+	google.golang.org/grpc v1.79.3
+	google.golang.org/protobuf v1.36.10
 	nhooyr.io/websocket v1.8.7 // indirect
 )
 
 require (
 	github.com/bufbuild/connect-go v1.10.0
-	github.com/khulnasoft/devpod/components/public-api/go v0.0.0-00010101000000-000000000000
 	github.com/gookit/color v1.5.4
 	github.com/inconshreveable/go-update v0.0.0-20160112193335-8152e7eb6ccf
+	github.com/khulnasoft/devpod/components/public-api/go v0.0.0-00010101000000-000000000000
 	github.com/lmittmann/tint v1.0.3
 	github.com/manifoldco/promptui v0.9.0
 	github.com/mattn/go-isatty v0.0.17
@@ -45,15 +43,15 @@ require (
 require (
 	dario.cat/mergo v1.0.0 // indirect
 	github.com/Microsoft/go-winio v0.6.2 // indirect
-	github.com/ProtonMail/go-crypto v1.1.5 // indirect
+	github.com/ProtonMail/go-crypto v1.1.6 // indirect
 	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
 	github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e // indirect
-	github.com/cloudflare/circl v1.6.0 // indirect
+	github.com/cloudflare/circl v1.6.3 // indirect
 	github.com/cyphar/filepath-securejoin v0.4.1 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/emirpasic/gods v1.18.1 // indirect
 	github.com/go-git/gcfg v1.5.1-0.20230307220236-3a3c6141e376 // indirect
-	github.com/go-git/go-billy/v5 v5.6.2 // indirect
+	github.com/go-git/go-billy/v5 v5.8.0 // indirect
 	github.com/golang/groupcache v0.0.0-20241129210726-2c02b8208cf8 // indirect
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
@@ -77,9 +75,8 @@ require (
 	github.com/cenkalti/backoff/v4 v4.1.3 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/danieljoos/wincred v1.1.0 // indirect
-	github.com/go-git/go-git/v5 v5.14.0
+	github.com/go-git/go-git/v5 v5.17.1
 	github.com/godbus/dbus/v5 v5.0.3 // indirect
-	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.11.3 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
@@ -92,13 +89,12 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
 	golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56
-	golang.org/x/net v0.35.0 // indirect
-	golang.org/x/sys v0.31.0 // indirect
-	golang.org/x/text v0.23.0 // indirect
-	google.golang.org/appengine v1.6.7 // indirect
+	golang.org/x/net v0.48.0 // indirect
+	golang.org/x/sys v0.39.0 // indirect
+	golang.org/x/text v0.32.0 // indirect
 	google.golang.org/genproto v0.0.0-20230913181813-007df8e322eb // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20230913181813-007df8e322eb // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20230920204549-e6e6cdab5c13 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20251202230838-ff82c1b0f217 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20251202230838-ff82c1b0f217 // indirect
 )
 
 replace github.com/khulnasoft/devpod/devpod-protocol => ../devpod-protocol/go // blazedock
